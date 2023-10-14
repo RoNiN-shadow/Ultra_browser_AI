@@ -9,10 +9,10 @@ def search():
     
     
     for i in range(1):
-        new_google= "https://www.perplexity.ai/search?q="
+        perpl= "https://www.perplexity.ai/search?q="
         open=value
 
-        webbrowser.open_new(str(new_google) + str(open))
+        webbrowser.open_new(str(perpl) + str(open))
         e1.delete(0, 'end')
     
     
